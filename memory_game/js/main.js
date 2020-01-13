@@ -1,9 +1,19 @@
-console.log("Up and running!");
+//Card logic
+const cards = ["queen","queen","king","king"];
+const cardsInPlay = [];
 
-let cardOne = "Queen";
-let cardTwo = "King";
-let cardThree = "Queen";
-let cardFour = "King";
+let cardOne = cards[0];
+cardsInPlay.push(cardOne);
 
-console.log("User Flipped " + cardOne);
-console.log("User Flipped " + cardFour);
+console.log("You Flipped a " + cardOne);
+
+let cardTwo = cards[1];
+cardsInPlay.push(cardTwo);
+
+console.log("You Flipped a " + cardTwo);
+
+if (cardsInPlay.length === 2) {
+	if (cardsInPlay[0] === cardsInPlay[1]) {
+		alert("You found a match!");
+	} else alert("Sorry, not a match!");
+}
