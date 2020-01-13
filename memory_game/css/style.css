@@ -54,6 +54,14 @@ a {
 	border-bottom: 2px solid transparent;
 }
 
+p a {
+	color: blue;
+}
+
+p a:hover {
+	color: #f15b31;
+}
+
 a:hover {
 	border-color: white;
 }
