@@ -17,7 +17,7 @@ cardsInPlay.push(cards[cardId]);
 checkForMatch();
 }
 
-flipCard(0);
-flipCard(1);
+flipCard(3);
+flipCard(2);
 
 
